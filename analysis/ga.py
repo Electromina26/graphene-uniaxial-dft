@@ -1,4 +1,5 @@
-import numpy as np, json
+import os, numpy as np, json
+os.makedirs('out',exist_ok=True)
 import matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 from scipy.interpolate import CubicSpline
